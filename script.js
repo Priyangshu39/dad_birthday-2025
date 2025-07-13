@@ -1,9 +1,9 @@
-const bgMusic = document.getElementById('bgMusic'); // <<== IMPORTANT
+const bgMusic = document.getElementById('bgMusic');
 
 document.getElementById('nextBtn1').addEventListener('click', function() {
   document.getElementById('slide1').classList.add('hidden');
   document.getElementById('slide2').classList.remove('hidden');
-  bgMusic.play(); // <<== START MUSIC on click
+  bgMusic.play(); // start music
 });
 
 document.getElementById('nextBtn2').addEventListener('click', function() {
