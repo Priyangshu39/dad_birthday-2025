@@ -1,9 +1,9 @@
-const bgMusic = document.getElementById('bgMusic');
+const bgMusic = document.getElementById('bgMusic'); // Only ONCE!
 
 document.getElementById('nextBtn1').addEventListener('click', function() {
   document.getElementById('slide1').classList.add('hidden');
   document.getElementById('slide2').classList.remove('hidden');
-  bgMusic.play(); // start music
+  bgMusic.play(); // ✅ Starts music on click!
 });
 
 document.getElementById('nextBtn2').addEventListener('click', function() {
